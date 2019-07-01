@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	background-color:#630D0E;
+	width:100%;
+	height: 150px;
+}
+.header ul{
+	padding:10px;
+	margin:10px;
+}
+.header ul li{
+	list-style-type: none;
+	text-decoration: none;
+	padding: 5px;
+
+}
+.link{
+	color:#c8c2c2;
+	text-decoration: none;
+}
+.link:hover{
+	color:white;
+	transition-duration: 0.6s;
+}
+.std_portal ul{
+	margin-left: 35%;
+	margin-top: -100px;
+}
+
+.std_portal ul li{
+	display: inline;
+}
+.std_portal ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight:2px;
+	padding:5px;
+}
+.link2{
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+.link3{
+	border-right: 2px solid white;
+}
+.select-box{
+	margin-left:85%;
+	margin-top:-50px;
+}
+.select-box select{
+	border:none;
+	border-radius: 3px;
+	width: 180px;
+	height: 30px;
+}
+.google_img{
+	margin-left:90%;
+	margin-top: 20px;
+}
+.nav_bar{
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+
+}
+.UOK_logo{
+	background-color: white;
+	width:100%;
+	height: 100px;
+		 
+}
+.nav_items ul{
+	margin-left: 30%;
+	margin-top:-70px;
+	position:relative;
+} 
+.nav_items ul ul{
+	display: none;
+}
+.nav_items ul li:hover >ul{
+	display:block;
+}
+.nav_items ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position:absolute;
+}
+.nav_items ul li{
+	display: inline-block;
+}
+.nav_items ul li a{
+	text-decoration: none;
+	color:#B7B5B5;
+	font-size: 20px;
+	padding-right: 20px;
+	font-weight: 1px;
+}
+#background_image{
+	width: 100%;
+	height: 350px; 
+	border-top: 4px solid #E3DFDF;
+	border-radius: 2px;
+}
+
+.footer-left{
+	background-color:#630D0E;
+	width: 35%;
+	height: 500px;
+}
+.find_course h1{
+	margin-top: -480px;
+	margin-left: 20px;
+	color: white;
+}
+.find_course #course1{
+	margin-left: 30px;
+	margin-top: 20px;
+	color: white;
+}
+.find_course #course2{
+	margin-left: 250px;
+	margin-top: -45px;
+	color: white;
+}
+.footer-left .Select_box1{
+	background-color: #D46B6D;
+	color:white;
+	transform: translate(30px,50px);
+	font-size: 18px;
+	font-weight: 10px;
+	border:none;
+	border-radius:5px;
+	text-align: center;
+	padding:15px 15px;
+	margin-top: 80px;
+	width: 150px;
+}
+.footer-left .Select_box1:hover{
+	cursor: pointer;
+}
+.footer-left .Select_box1:focus{
+	transition-duration: 1s;
+}
+.footer-left .Select_box1 option{
+
+}
+.select_box select{
+	background-color: #D46B6D;
+	color:white;
+	border-radius:5px;
+	width: 160px;
+	margin-left:-880px;
+	margin-top: 55px;
+	height: 50px;
+	cursor: pointer;
+}
+.text_class{
+	width: 400px;
+	background-color: #D46B6D;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 50px;
+	border: none;
+	font-size: 18px;
+
+}
+input:focus{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.btn1{
+	display:block;
+	position: relative;
+	color: white;
+	padding: 20px 25px;
+	background-color: #630D0E;
+	border-radius: 5px;
+	border:1px solid white;
+	font-weight: 2px;
+	margin-top:30px;
+	margin-left: 120px;
+	font-size: 18px;
+}
+.btn1:hover{
+	background-color: white;
+	cursor: pointer;
+	color:#630D0E;
+}
+.footer-middle{
+	background-color:#E3DFDF;
+	width: 30%;
+	height: 500px;
+	margin-left:35%;
+	margin-top: -445px;
+}
+.footer-middle h2{
+	color:#630D0E;
+	padding-left: 120px;
+	padding-top: 20px;
+}
+.footer-middle h1{
+	color:#630D0E;
+	padding-left: 35px;
+}
+.phara1{
+	margin-left: 50px;
+	width: 300px;
+	margin-right: 50px;
+}
+.phara1 p{
+	color: #5F5E5E;
+	font-size: 18px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+.time{
+	color:#630D0E;
+	font-weight: 3px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.date{
+	color: #5F5E5E;
+	margin-left: 50px;
+}
+.footer-right{
+	width: 34.80%;
+	border:2px solid black;
+	height: 500px;
+	margin-left: 65%;
+	margin-top:-500px;
+}
+.footer-right h1{
+	margin-left: 30px;
+	color: #194F13;
+}
+.select_name{
+	margin-top: 40px;
+	margin-left: 60px;
+}
+.select_name a{
+	text-decoration: none;
+	background-color: #26D72F;
+	padding: 15px 20px;
+	color: white;
+}
+.select_name a:hover{
+	background-color: #5F5E5E;
+	color: white
+}
+
+.footer-list1 ul li{
+		margin-top: 20px;
+		width: 100px;
+		list-style-type: none;
+		background-color: blue;
+		width: 150px;
+		height: 50px;
+		text-align: center;
+		padding-top: 10px;
+}
+.footer-list1 ul li a{
+	text-decoration: none;
+	color:white;
+	padding-bottom: 10px;
+}
+#footer ul{
+	margin-top:50px;
+}
+#Footer ul{
+	margin-left: 220px;
+	margin-top: -320px;
+}
+.footer-list1 ul li:hover{
+	background-color: #5F5E5E;
+}
